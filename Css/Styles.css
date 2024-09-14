@@ -72,6 +72,16 @@ body{
     
 }
 
-.displaying{
+.message{
     display: block;
+    background-color: rgb(105, 107, 125);
+    padding: 2px 3px;
+}
+
+.MessageText{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+
 }
