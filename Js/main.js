@@ -26,7 +26,7 @@ navigator.mediaDevices.getUserMedia({ audio: true }).then(function(stream) {
     
     // Show the birthday message
     document.getElementById('message').style.display = 'block';
-    const duration = 15 * 1000,
+    const duration = 2 * 1000,
   animationEnd = Date.now() + duration,
   defaults = { startVelocity: 30, spread: 100, ticks: 20, zIndex: 0 };
 
